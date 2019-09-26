@@ -1,0 +1,13 @@
+name = "TestPkg"
+uuid = "9e00c1fd-8b42-41ed-9477-1925d0819f35"
+authors = ["Arash Jamshidi"]
+version = "0.1.0"
+
+[compat]
+julia = "1.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
